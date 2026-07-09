@@ -1,0 +1,10 @@
+ultralytics>=8.4.0
+onnxruntime>=1.23.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+psutil>=5.9.0
+requests>=2.31.0
+scipy>=1.11.0
+
+# For GPU-accelerated inference (Jetson platforms), use instead of onnxruntime:
+# onnxruntime-gpu>=1.23.0
